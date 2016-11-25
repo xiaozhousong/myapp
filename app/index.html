@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <title>City Guide Application</title>
+
+    <!-- Sets initial viewport load and disables zooming  -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- Include the compiled Ratchet CSS -->
+    
+
+    <!--build:css css/styles.min.css-->
+    <link href="css/ratchet.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <!--endbuild-->
+
+    <!-- build:js js/main.min.js -->
+    <script src="js/ratchet.js"></script>
+    <!-- endbuild -->
+    
+  
+  </head>
+  
+  <body>
+
+    <div class="pageContainer">
+
+      <picture>
+        <source media="(min-width: 1536px)" srcset="images/landingbg_ipad_big.svg">
+        <source media="(min-width: 640px)" srcset="images/landingbg_iphone5_small.svg">
+        
+        <img class="landingbg" src="images/landingbg.svg" alt="this is a landing pages background picture">
+      </picture>
+
+       <img class="logo" src="images/logo.svg" alt="city guide app logo"/>
+
+    </div>
+
+
+    <nav class="bar bar-tab landingbar">
+      <a class="tab-item active bottomTabsVisual" href="home.html">
+      go start
+      </a>
+    </nav>
+   
+  </div>
+
+  </body>
+</html>
